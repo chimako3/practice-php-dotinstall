@@ -1,18 +1,19 @@
 <?php
-/*
-ドットインストール#4 変数とデータ型
 
-変数:データにつけるラベル 今回でいう$msg
-データ型:
--文字列 string
--数値 integer float
--論理値 boolean / true false
--配列
--オブジェクト
--null
-*/
+//定数:変更されない値につけるラベル
+//定数名は慣習で"大文字"で名付ける
+//変数と違って $ は付かない
 
-$msg = "hello from the TOP";
-echo $msg;
-var_dump($msg);
+define("MY_EMAIL","free-mail@gmail.com");
+
+echo MY_EMAIL;
+//MY_EMAIL = "hogehoge";  //定数は変更できないため
+
+var_dump(__LINE__);//12
+var_dump(__LINE__);
+var_dump(__LINE__);
+
+var_dump(__LINE__);
+var_dump(__FILE__);
+var_dump(__DIR__);
  ?>
