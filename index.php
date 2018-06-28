@@ -1,18 +1,18 @@
 <?php
-
-//comemt
-#comemt
 /*
-commemt
-commemt
+ドットインストール#4 変数とデータ型
+
+変数:データにつけるラベル 今回でいう$msg
+データ型:
+-文字列 string
+-数値 integer float
+-論理値 boolean / true false
+-配列
+-オブジェクト
+-null
 */
 
-echo "hello from the TOP!";
-echo "hello from the TOP again!";
+$msg = "hello from the TOP";
+echo $msg;
+var_dump($msg);
  ?>
-<!DOCTYPE html>
-<html lang="ja">
-<body>
-  <p>Hello World <?php echo "from PHP"; ?></p>
-</body>
-</html>
